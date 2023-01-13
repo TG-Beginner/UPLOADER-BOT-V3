@@ -1,6 +1,15 @@
-echo "Cloning Repo...."
-git clone https://github.com/anumitultra/UPLOADER-BOT-V3 /UPLOADER-BOT-V3
-cd /UPLOADER-BOT-V3
-pip3 install -U -r requirements.txt
-echo "Starting Bot.... Please Wait. Check You Log. Bot Edit by @LISA_FAN_KL"
-python3 bot.py
+FROM debian:latest
+
+RUN apt update && apt upgrade -y
+RUN apt install git curl python3-pip ffmpeg -y
+RUN pip3 install -U pip
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
+    apt-get install -y nodejs && \
+    npm i -g npm
+COPY requirements.txt /requirements.txt
+RUN cd /
+RUN pip3 install -U -r requirements.txt
+RUN mkdir /UPLOADER-BOT-V3
+WORKDIR /UPLOADER-BOT-V3
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"]
