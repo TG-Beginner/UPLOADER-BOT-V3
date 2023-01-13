@@ -22,13 +22,16 @@
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/LISA-KOREA/UPLOADER-BOT-V3&branch=main&name=UPLOADER-BOT-V3)
 
-###NOTICE
+### NOTICE
 
 Use koyeb.txt file to deploy in koyeb
 
 #### Render
 
 **the easy way of directly deploying on render**
+
+### NOTICE
+### Edit Dockerfile and edit code and put your repo link
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/LISA-KOREA/UPLOADER-BOT-V3)
 
