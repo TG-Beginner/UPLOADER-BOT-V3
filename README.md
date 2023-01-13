@@ -26,6 +26,12 @@
 
 Use koyeb.txt file to deploy in koyeb
 
+#### Render
+
+**the easy way of directly deploying on render**
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/LISA-KOREA/UPLOADER-BOT-V3)
+
 ### Comment
 
 ```
