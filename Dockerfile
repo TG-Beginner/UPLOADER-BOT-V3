@@ -9,4 +9,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
 COPY requirements.txt /requirements.txt
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-CMD gunicorn app:app & python3 bot.py
+RUN mkdir /UPLOADER-BOT-V3
+WORKDIR /UPLOADER-BOT-V3
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"]
