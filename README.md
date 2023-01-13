@@ -31,9 +31,9 @@ Use koyeb.txt file to deploy in koyeb
 **the easy way of directly deploying on render**
 
 ### NOTICE
-### Edit Dockerfile and edit code and put your repo link
+### 1st fork repo and Edit Dockerfile and edit code and put your repo link
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/LISA-KOREA/UPLOADER-BOT-V3)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/select-repo?type=web)
 
 ### Comment
 
